@@ -1,0 +1,20 @@
+    <foret>
+        <arbre>
+            <tronc>
+                <branche>
+                    <feuille />
+                </branche>
+            </tronc>
+        </arbre>
+        <arbre>
+            <tronc>
+                <branche>
+                    <branche>
+                        <branche>
+                            <feuille />
+                        </branche>
+                    </branche>
+                </branche>
+            </tronc>
+        </arbre>
+    </foret>
