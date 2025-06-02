@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Faire-part de mariage WS</title>
+  </head>
+  <body
+    style="
+      background-color: #fef9fe;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    "
+  >
+    <svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+      <!-- Fond dégradé -->
+      <defs>
+        <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#ff9a9e" />
+          <stop offset="100%" stop-color="#fad0c4" />
+        </linearGradient>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg)" />
+      <!-- Cœurs qui montent -->
+      <g>
+        <text x="400" y="500" font-size="30" fill="#fff" text-anchor="middle">
+          ❤️
+        </text>
+        <text x="200" y="520" font-size="24" fill="#fff" text-anchor="middle">
+          💗
+        </text>
+        <text x="600" y="530" font-size="28" fill="#fff" text-anchor="middle">
+          💖
+        </text>
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          from="0,0"
+          to="0,-600"
+          dur="8s"
+          repeatCount="indefinite"
+        />
+      </g>
+      <!-- Texte principal avec fondu + montée -->
+      <text
+        x="50%"
+        y="120"
+        font-size="36"
+        font-family="cursive"
+        fill="#fff"
+        text-anchor="middle"
+        opacity="0"
+      >
+        💍 Faire-part de Mariage WS 💍
+        <animate
+          attributeName="opacity"
+          from="0"
+          to="1"
+          dur="2s"
+          fill="freeze"
+        />
+        <animate attributeName="y" from="160" to="120" dur="2s" fill="freeze" />
+      </text>
+      <!-- Sous-texte -->
+      <text
+        x="50%"
+        y="200"
+        font-size="22"
+        font-family="Verdana"
+        fill="#fff"
+        text-anchor="middle"
+        opacity="0"
+      >
+        Houda, Yasmine, Remi, Othman vous annoncent
+        <animate
+          attributeName="opacity"
+          from="0"
+          to="1"
+          begin="2s"
+          dur="2s"
+          fill="freeze"
+        />
+      </text>
+
+      <text
+        x="50%"
+        y="240"
+        font-size="22"
+        font-family="Verdana"
+        fill="#fff"
+        text-anchor="middle"
+        opacity="0"
+      >
+        la création de leur groupe de Web Sémantique
+        <animate
+          attributeName="opacity"
+          from="0"
+          to="1"
+          begin="2s"
+          dur="2s"
+          fill="freeze"
+        />
+      </text>
+      <text
+        x="50%"
+        y="300"
+        font-size="18"
+        font-family="Verdana"
+        fill="#fff"
+        text-anchor="middle"
+        opacity="0"
+      >
+        Unis pour créer des merveilles numériques 💡
+        <animate
+          attributeName="opacity"
+          from="0"
+          to="1"
+          begin="4s"
+          dur="2s"
+          fill="freeze"
+        />
+      </text>
+
+      <!-- Message final -->
+      <text
+        x="50%"
+        y="470"
+        font-size="20"
+        font-family="Arial"
+        fill="#fff"
+        text-anchor="middle"
+        opacity="0"
+      >
+        💫 L’aventure commence maintenant...
+        <animate
+          attributeName="opacity"
+          from="0"
+          to="1"
+          begin="6s"
+          dur="2s"
+          fill="freeze"
+        />
+      </text>
+    </svg>
+  </body>
+</html>
