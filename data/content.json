@@ -1,23 +1,122 @@
 {
+  "experience_title": {
+    "fr": "Expérience Professionnelle",
+    "ar": "الخبرة المهنية",
+    "ja": "職歴",
+    "en": "Professional Experience"
+  },
+  "experience_details": {
+    "fr": [
+      "Animateur en centre social – Espace Nelly Roussel, Villeneuve-la-Garenne (2022)",
+      "Encadrement des enfants",
+      "Installation du matériel",
+      "Animation d'activités"
+    ],
+    "ar": [
+      "منشط في مركز اجتماعي – مركز نيللي روسيل، فيلنوف-لا-جارين (2022)",
+      "الإشراف على الأطفال",
+      "إعداد المعدات",
+      "تنظيم الأنشطة"
+    ],
+    "ja": [
+      "ソーシャルセンターアニメーター – エスパス・ネリー・ルーセル（ヴィルヌーヴ＝ラ＝ガレンヌ）2022年",
+      "子どもの監督",
+      "機材の準備",
+      "アクティビティの運営"
+    ],
+    "en": [
+      "Youth Activity Leader – Espace Nelly Roussel, Villeneuve-la-Garenne (2022)",
+      "Supervision of children",
+      "Equipment setup",
+      "Activity facilitation"
+    ]
+  },
+  "education_title": {
+    "fr": "Formation",
+    "ar": "التعليم",
+    "ja": "学歴",
+    "en": "Education"
+  },
+  "education_details": {
+    "fr": [
+      "Baccalauréat Général – Mathématiques et Numérique (Académie de Versailles)",
+      "Licence 1 Informatique – Université Sorbonne Paris Nord",
+      "BUT2 Informatique – Développement d'applications, IUT de Villetaneuse",
+      "Ingénieur Informatique – École Sup Galilée (2023–2026)"
+    ],
+    "ar": [
+      "البكالوريا العامة – رياضيات ورقميات (أكاديمية فرساي)",
+      "ليسانس 1 علوم الحاسوب – جامعة السوربون باريس نورد",
+      "BUT2 علوم الحاسوب – تطوير التطبيقات، معهد IUT فيلتانوز",
+      "مهندس معلوماتية – مدرسة Sup Galilée (2023–2026)"
+    ],
+    "ja": [
+      "一般バカロレア（数学・情報科学）ヴェルサイユ学区",
+      "情報学士1年 – ソルボンヌ・パリ・ノール大学",
+      "BUT2情報学 – アプリ開発専攻、IUTヴィルタヌーズ校",
+      "情報工学エンジニア – Sup Galilée工学学校（2023–2026）"
+    ],
+    "en": [
+      "General Baccalaureate – Mathematics and Digital Sciences (Académie de Versailles)",
+      "Bachelor Year 1 in Computer Science – Sorbonne Paris North University",
+      "BUT2 Computer Science – Application Development, IUT of Villetaneuse",
+      "Engineering in Computer Science – Sup Galilée School (2023–2026)"
+    ]
+  },
   "name": {
     "fr": "Othman Boudarga",
     "ar": "عثمان بودرجه",
-    "ja": "オスマン・ブダルガ"
+    "ja": "オスマン・ブダルガ",
+    "en": "Othman Boudarga"
   },
   "home_description": {
     "fr": "Je suis étudiant en informatique à l'Université Paris-13.",
     "ar": "أنا طالب في علوم الحاسوب في جامعة باريس-13.",
-    "ja": "私はパリ第13大学の情報学専攻の学生です。"
+    "ja": "私はパリ第13大学の情報学専攻の学生です。",
+    "en": "I am a computer science student at Paris-13 University."
   },
   "contact_me": {
     "fr": "Contactez-moi",
     "ar": "اتصل بي",
-    "ja": "お問い合わせ"
+    "ja": "お問い合わせ",
+    "en": "Contact me"
   },
   "cv": {
     "fr": "Mon CV",
     "ar": "سيرتي الذاتية",
-    "ja": "私の履歴書"
+    "ja": "私の履歴書",
+    "en": "My Resume"
+  },
+   "languages_title": {
+    "fr": "Langues",
+    "ar": "اللغات",
+    "ja": "言語",
+    "en": "Languages"
+  },
+  "languages_list": {
+    "fr": [
+      "Anglais : B2",
+      "Arabe (Marocain) : Parlé",
+      "Espagnol : B1",
+      "Français : Langue maternelle"
+    ],
+    "ar": [
+      "الإنجليزية : B2",
+      "العربية (المغربية) : اللغة الأم",
+      "الإسبانية : B1",
+      "الفرنسية : C2"
+    ],
+    "ja": [
+      "英語：B2",
+      "アラビア語（モロッコ方言）：母語",
+      "スペイン語：B1",
+      "フランス語：C2"
+    ],
+    "en": [
+      "English: B2",
+      "Arabic (Moroccan): Spoken",
+      "Spanish: B1",
+      "French: Native"
+    ]
   }
-
 }
