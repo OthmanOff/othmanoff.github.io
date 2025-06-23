@@ -1,5 +1,11 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html
+  lang="fr"
+  prefix="
+    dc: http://purl.org/dc/elements/1.1/
+    foaf: http://xmlns.com/foaf/0.1/
+    schema: http://schema.org/"
+>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -63,13 +69,30 @@
         /></a>
       </div>
     </header>
-    <div vocab="http://schema.org/" typeof="Person" class="hidden">
-      <meta property="name" content="Othman Boudarga" />
-      <meta property="email" content="othman.boudarga@gmail.com" />
-      <meta property="jobTitle" content="Étudiant en informatique" />
-      <meta property="affiliation" content="Université Paris-13" />
+    <div vocab="http://xmlns.com/foaf/0.1/" typeof="foaf:Person" class="hidden">
+      <span property="foaf:name">Othman Boudarga</span>
+      <a property="foaf:mbox" href="mailto:othman.boudarga@gmail.com"
+        >othman.boudarga@gmail.com</a
+      >
+      <span property="foaf:title">Étudiant en informatique</span>
+      <span
+        property="foaf:schoolHomepage"
+        resource="https://www.univ-paris13.fr/"
+        >Université Paris 13</span
+      >
     </div>
     <main class="flex-1 p-6 space-y-8">
+      <div
+        vocab="http://purl.org/dc/elements/1.1/"
+        typeof="dc:Text"
+        class="hidden"
+      >
+        <span property="dc:title"
+          >Portfolio Multilingue de Othman Boudarga</span
+        >
+        <span property="dc:creator">Othman Boudarga</span>
+        <meta property="dc:language" content="fr" />
+      </div>
       <section>
         <h2 id="home_description" class="text-lg">Chargement du contenu...</h2>
       </section>
