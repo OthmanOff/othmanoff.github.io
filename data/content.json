@@ -1,0 +1,23 @@
+{
+  "name": {
+    "fr": "Othman Boudarga",
+    "ar": "عثمان بودرجه",
+    "ja": "オスマン・ブダルガ"
+  },
+  "home_description": {
+    "fr": "Je suis étudiant en informatique à l'Université Paris-13.",
+    "ar": "أنا طالب في علوم الحاسوب في جامعة باريس-13.",
+    "ja": "私はパリ第13大学の情報学専攻の学生です。"
+  },
+  "contact_me": {
+    "fr": "Contactez-moi",
+    "ar": "اتصل بي",
+    "ja": "お問い合わせ"
+  },
+  "cv": {
+    "fr": "Mon CV",
+    "ar": "سيرتي الذاتية",
+    "ja": "私の履歴書"
+  }
+
+}
