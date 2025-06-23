@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf [
+   <!ENTITY spo   "http://www.fil.univ-lille1.fr/~caronc/WS/schema"> 
+   <!ENTITY rdfs  "http://www.w3.org/2000/01/rdf-schema">
+   <!ENTITY rdf   "http://www.w3.org/1999/02/22-rdf-syntax-ns">
+    ]>
+<rdf:RDF xmlns:rdf="&rdf;#" xmlns:rdfs="&rdfs;#" xmlns="&rdfs;#" xml:base="&spo;">
+
+  <rdfs:Class rdf:about="#Album"/>
+  
+  <rdf:Property rdf:about="#nom">
+    <rdfs:label>Nom</rdfs:label>
+    <rdfs:domain rdf:resource="#Album"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="#image">
+    <rdfs:domain rdf:resource="#Album"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="#resume">
+    <rdfs:domain rdf:resource="#Album"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+
+</rdf:RDF>
